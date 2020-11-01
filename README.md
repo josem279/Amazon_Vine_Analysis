@@ -10,19 +10,19 @@ The analysis of the pgAdmin tables through Pandas allowed us to answer the follo
 
 1. How many Vine reviews and non-Vine reviews were there?
 
-    ![image of count]()
+    ![image of count](https://github.com/josem279/Amazon_Vine_Analysis/blob/main/images/paid_unpaid_count.PNG)
 
     As shown above, there are a total of 94 Vine (paid) reviwers and 40,471 unpaid reviews in the Video_Games_V1 dataset. This is after dataset was filtered to only include rows where the total votes count was equal to or greater than 20 and then the number of helpful votes divided by total votes was equal to or greater than 50%.
 
 2. How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
 
-    ![image of 5-star reviews output]()
+    ![image of 5-star reviews output](https://github.com/josem279/Amazon_Vine_Analysis/blob/main/images/5_star_count.PNG)
 
     As shown in our Pandas output, there are a total of 48 five star reviews by Vine (paid) reviewers and 15,663 five star reviews by unpaid reviwers.
 
 3. What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 
-    ![image of percentages]()
+    ![image of percentages](https://github.com/josem279/Amazon_Vine_Analysis/blob/main/images/5_star_percentages.PNG)
 
     Based on our previous answers and as is demonstrated in our Pandas output, this means that in the Video_Games_V1 dataset approximately 51% of Vine reviews are 5-stars whereas only 38% of non paid reviews are 5-stars.
 
